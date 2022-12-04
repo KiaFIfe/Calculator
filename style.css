@@ -12,7 +12,7 @@ button {
   padding-left: 25px;
   background-color: rgb(218, 213, 213);
 }
-.search {
+.display {
   width: 95%;
   height: 65px;
   margin-top: 20px;
@@ -45,7 +45,7 @@ button {
   margin-top: 20px;
 }
 .clear {
-  width: 115px;
+  width: 85px;
   margin: 5px;
   border-style: none;
   height: 55px;
