@@ -1,6 +1,7 @@
 let result = document.querySelector("#display");
 
 let calculate = (number) => {
+  // if (number === "." && this.number.includes(".")) return;
   result.value += number;
 };
 
@@ -16,6 +17,6 @@ function clr() {
   result.value = "";
 }
 
-function del(){
-  result.value = result.value.slice(0,-1)
+function del() {
+  result.value = result.value.slice(0, -1);
 }
