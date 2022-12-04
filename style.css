@@ -1,42 +1,53 @@
-button{
-    border-radius: 60px;
+button {
   box-shadow: 6px 2px 15px rgb(202, 200, 200);
-
 }
 .calculator {
-  height: 700px;
+  box-shadow: 6px 2px 15px rgb(148, 148, 148);
+  height: 460px;
   border-style: solid;
-  border-radius: 10px;
-  width: 600px;
-  margin-top: 30px;
+  border-radius: 6px;
+  border-style: none;
+  width: 360px;
+  margin-top: 15px;
+  padding-left: 25px;
+  background-color: rgb(218, 213, 213);
 }
 .search {
-  width: 90%;
-  height: 90px;
-  margin: 20px;
-  padding: 20px;
+  width: 95%;
+  height: 65px;
+  margin-top: 20px;
+  padding: 10px;
   border-radius: 5px;
 }
 .cal-numbers {
   text-align: center;
 }
 .number {
-  width: 100px;
-  height: 100px;
-  font-size: 30px;
+  width: 55px;
+  height: 55px;
+  font-size: 22px;
   border-style: none;
-  margin: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 13px 10px 10px rgb(156, 142, 142);
+}
+
+.number:hover {
+  box-shadow: inset -1px -1px 20px #403b3b;
+}
+.clear:hover {
+  box-shadow: inset -1px -1px 20px #403b3b;
 }
 .button-numbers {
-  margin-top: 40px;
-}
-.symbol {
-  width: 100px;
-  height: 115px;
-  margin: 5px;
-  font-size: 30px;
-  border-style: none;
+  margin-top: 20px;
 }
 .symbol-col {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+.clear {
+  width: 115px;
+  margin: 5px;
+  border-style: none;
+  height: 55px;
+  box-shadow: 13px 10px 10px rgb(156, 142, 142);
 }
